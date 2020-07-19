@@ -1,0 +1,308 @@
+body
+{
+  margin: 0 auto;
+  padding: 0;
+  background-repeat: repeat;
+}
+
+/* end Page */
+
+/* begin Menu */
+/* menu structure */
+
+.artmenu a, .artmenu a:link, .artmenu a:visited, .artmenu a:hover
+{
+  text-align:left;
+  text-decoration:none;
+  outline:none;
+  letter-spacing:normal;
+  word-spacing:normal;
+}
+
+.artmenu, .artmenu ul
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style-type: none;
+  display: block;
+}
+
+.artmenu li
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+  float: left;
+  position: relative;
+  z-index: 5;
+  background:none;
+}
+
+.artmenu li:hover
+{
+  z-index: 10000;
+  white-space: normal;
+}
+
+.artmenu li li
+{
+  float: none;
+}
+
+.artmenu ul
+{
+  visibility: hidden;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  background:none;
+}
+
+.artmenu li:hover>ul
+{
+  visibility: visible;
+  top: 100%;
+}
+
+.artmenu li li:hover>ul
+{
+  top: 0;
+  left: 100%;
+}
+
+.artmenu:after, .artmenu ul:after
+{
+  content: ".";
+  height: 0;
+  display: block;
+  visibility: hidden;
+  overflow: hidden;
+  clear: both;
+}
+.artmenu, .artmenu ul
+{
+  min-height: 0;
+}
+
+.artmenu ul
+{
+  padding: 10px 30px 30px 30px;
+  margin: -10px 0 0 -30px;
+}
+
+.artmenu ul ul
+{
+  padding: 30px 30px 30px 10px;
+  margin: -30px 0 0 -10px;
+}
+
+
+/* menu structure */
+
+.nav
+{
+  position: relative;
+  margin: 0  auto;
+  width: 799px;
+  height: 28px;
+  z-index: 100;
+  
+
+}
+
+.artmenu
+{
+  padding: 3px 3px 3px 3px;
+}
+
+
+.nav .l, .nav .r, .nav .r div
+{
+  top: 0;
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+  height: 28px;
+}
+
+.nav .l
+{
+  left: 0;
+  right: 0px;
+}
+
+
+.nav .r
+{
+  right: 0;
+  width: 0px;
+}
+
+
+.nav .r div
+{
+  width: 1px;
+  right: 0;
+}
+
+
+.nav .l, .nav .r div
+{
+  background-position: left top;
+  background-repeat: no-repeat;
+  
+}
+
+/* end Menu */
+
+/* begin MenuItem */
+.artmenu ul li
+{
+  clear: both;
+}
+
+.artmenu a , .artmenu a span
+{
+  height: 22px;
+  display: block;
+}
+
+
+.artmenu a
+{
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 3px;
+  margin-left: 3px;
+
+}
+.artmenu a span span
+{
+  background-image: url(../images/notes.gif);
+  background-repeat:no-repeat;
+  font-family: Arial, Helvetica, Sans-Serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding: 0 20px;
+  margin: 0 0px;
+  line-height: 22px;
+  text-align: center;
+  background-position: left top;
+  
+}
+
+.artmenu a:hover span span
+{
+  background-image: url(../images/menuadmin.gif);
+  background-repeat:no-repeat;
+  color: #870015;
+}
+
+.artmenu li:hover a span span
+{
+  color: #85edee;
+  background-image: url(../images/menuadmin.gif);
+  background-repeat:no-repeat;
+
+}
+
+
+.artmenu a.active span span
+{
+  color: #FFFFFF;
+  background-position: left -44px;
+}
+
+/* end MenuItem */
+
+/* begin MenuSeparator */
+.nav .separator
+{
+  display: block;
+  width: 1px;
+  height: 22px;
+}
+
+/* end MenuSeparator */
+
+/* begin MenuSubItem */
+.artmenu ul a
+{
+  display:block;
+  text-align: center;
+  white-space: nowrap;
+  height: 20px;
+  width: 200px;
+  overflow:hidden;
+  line-height: 20px;
+  margin-right: auto;
+
+
+  background-color:#870015;
+  background-position: left top;
+  background-repeat: repeat-x;
+
+  border-width: 0px;
+  border-style: solid;
+  border-color: {PassiveBorderColor};
+}
+
+.nav ul.artmenu ul span, .nav ul.artmenu ul span span
+{
+  display: inline;
+  float: none;
+  margin: inherit;
+  padding: inherit;
+  background-image: none;
+  text-align: inherit;
+  text-decoration: inherit;
+}
+
+.artmenu ul a, .artmenu ul a:link, .artmenu ul a:visited, .artmenu ul a:hover, .artmenu ul a:active, .nav ul.artmenu ul span, .nav ul.artmenu ul span span
+{
+  text-align: left;
+  text-indent: 12px;
+  text-decoration: none;
+  line-height: 20px;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, Sans-Serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.artmenu ul ul a
+{
+  margin-left: auto;
+}
+
+.artmenu ul li a:hover
+{
+  color: #0099FF;
+  background-position: 0 -20px;
+}
+
+.artmenu ul li:hover>a
+{
+  color: #12345e;
+  background-color:#c2cde0;
+  border-bottom:1px dashed #FFFFFF;  
+}
+
+.nav .artmenu ul li a:hover span, .nav .artmenu ul li a:hover span span
+{
+  color: #F5F5F5;
+}
+
+.nav .artmenu ul li:hover>a span, .nav .artmenu ul li:hover>a span span
+{
+  color: #F5F5F5;
+}
+
+
+/* end MenuSubItem */

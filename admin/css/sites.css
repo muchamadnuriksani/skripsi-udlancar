@@ -1,0 +1,89 @@
+html,body{
+	width:100%;
+}
+
+body{
+	margin:0;
+	font:12px normal Tahoma, Geneva, sans-serif;
+	
+	
+
+}
+
+h1,h2,h3,h4,table,form,input{
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#898989;
+}
+
+h1,h2,h3,h4,h5{
+	
+	font-weight:500;
+}
+
+#login-box{
+	padding:30px;
+	width:500px;
+	margin:0 auto;
+	background: #e1e1e1;		
+	background: -moz-linear-gradient(#e1e1e1, #fff);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#e1e1e1), to(#fff));
+	background: -webkit-linear-gradient(#e1e1e1, #fff);    
+	background: -o-linear-gradient(#e1e1e1, #fff);	
+	background: -ms-linear-gradient(#e1e1e1, #fff);	
+	background: linear-gradient(#e1e1e1, #fff);
+	-moz-border-radius:10px;
+	border-radius:10px;
+}
+
+/* button */
+.button{
+	font:11px Tahoma,sans-serif;font-weight:bold;padding:6px 8px;color:#fff;display:inline-block;zoom:1;*display:inline;vertical-align:baseline;margin:0 3px 0 1px;outline:none;cursor:pointer;text-align:center;text-shadow:1px 1px 1px #555;width:auto;overflow:visible;line-height:110%;text-decoration:none;
+}
+.button:hover{opacity:0.9;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";filter:alpha(opacity=90)}
+a.button:hover{color:#fff}
+.button:active{position:relative;top:1px}
+.button.big{font:15px Arial,sans-serif;font-weight:bold;padding:8px 10px}
+.button.small{font-weight:normal;padding:4px 5px}
+.button.red{border:1px solid #9c0606;background:#e85353}
+.button.blue{border:1px solid #0d717e;background:#28a0b2}
+.button.green{border:1px solid #3b6e22;background:#75ae5c}
+.button.orange{border:1px solid #c16729;background:#ff9435}
+.button.purple{border:1px solid #981271;background:#cb60b3}
+.button.yellow{border:1px solid #af9827;background:#f2de6f}
+.button.black{border:1px solid #000;background:#444}
+.button.gray{border:1px solid #444;background:#888}
+.button.white{color:#444;text-shadow:1px 1px 0 #fff;border:1px solid #999;background:#f7f7f7}
+.button.white:hover{color:#444}
+
+input[type=text],
+input[type=password]{
+	background: rgba(255, 255, 255, 0.9);
+	background:-moz-linear-gradient(90deg, #fff, #eee); /* Firefox */
+	background:-webkit-gradient(linear, left top, left bottom, from(#eee), to(#fff), color-stop(0.2, #fff)); /* Webkit */
+	border:1px solid #aaa;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-box-shadow:0 0 3px #aaa;
+	-webkit-box-shadow:0 0 3px #aaa;
+	padding:5px;
+}
+input[type=text]:focus,
+input[type=password]:focus{
+	border-color:#093c75;
+	-moz-box-shadow:0 0 3px #0459b7;
+	-webkit-box-shadow:0 0 3px #0459b7;
+	outline:none; /* Pour enlever le contour jaune lorsque l'on sélectionne un input dans Chrome */
+}
+select{
+	cursor:pointer;
+	padding:3px;
+	-moz-box-shadow:0 0 3px #aaa;
+	-webkit-box-shadow:0 0 3px #aaa;
+}
+select:active,
+select:focus{
+	border:1px solid #093c75;
+	-moz-box-shadow:0 0 3px #0459b7;
+	-webkit-box-shadow:0 0 3px #0459b7;
+	outline:none;
+}

@@ -1,0 +1,669 @@
+body,table,select,input{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333333;
+}
+
+form{
+	background-color:#EFF2F7;
+	padding:5px 5px 5px 5px;
+	margin-left:10px;
+}
+
+.right{
+	text-align:right;	
+}
+
+.tdspace {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #515151;
+	text-decoration: none;
+	border-right:1px #CCCCCC dashed;
+	padding-left: 2px;
+}
+
+.tdspace a{
+	color:#006699;
+}
+
+.tdmenu {
+	color:#006699;
+	font-weight:bold;
+}
+
+.tdbarang {
+	color:#fffc9f;
+	font-weight:bold;
+	border-width:medium;
+	border-color:#99FF00;
+}
+
+.tdbarang a{
+	color:#FF0000;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.tdbarang a:hover{
+	color:#993333;
+	text-decoration:underline;
+}
+
+.tdhead{
+	height:40px;
+}
+
+.tdhead a{
+	color:#006699;
+	font-weight:bold;
+	text-decoration:none;
+	font-family:Tahoma;
+	font-size:13px;
+}
+
+.tdhead a:hover{
+	color:#666666;
+}
+
+.table-record{
+	margin-top:10px;
+	margin-left:10px;
+	border:1px solid #CCCCCC;
+	border-collapse:collapse;
+}
+
+.table-record th{
+	border-top:3px double #666666;
+	border-bottom:3px double #666666;
+	font-weight:bold;
+	height:33px;
+	padding-left:3px;
+}
+
+.table-record td{
+	height:55px;
+	padding-left:3px;
+	padding-right:2px;
+}
+
+.table-std{
+	margin-top:10px;
+	margin-left:10px;
+	border:1px solid #CCCCCC;
+	border-collapse:collapse;
+}
+
+.table-std th{
+	border-top:3px double #666666;
+	border-bottom:3px double #666666;
+	font-weight:bold;
+	height:33px;
+	padding-left:3px;
+}
+
+.table-std td{
+	padding-left:3px;
+	padding-right:2px;
+}
+
+
+.menu{
+	background-color:#870015;
+	color:#FFFFFF;
+}
+.menu a{
+	color:#FFFFFF;
+}
+
+/* Sample PopBox CSS Classes */
+/* PopBox.js, Copyright (c) 2007, C6 Software, Inc. (http://www.c6software.com/)*/
+
+.PopBoxImageSmall
+{
+	
+}
+.PopBoxImageLarge
+{
+	}
+.PopBoxImageShrink
+{
+	}
+.PopBoxImageLink
+{
+	}
+.PopBoxImageMove
+{
+	}
+	
+	a:link 
+{
+ text-decoration: none;
+ font-family: Arial;
+ font-size: 11px;
+ color: #000099;
+ font-weight: normal;
+}
+
+a:visited 
+{
+ text-decoration: none;
+ font-family: Arial;
+ font-size: 11px;
+ color: #000099;
+ font-weight: normal;
+}
+
+a:hover 
+{
+ text-decoration: underline;
+ font-family: Arial;
+ font-size: 11px;
+ color: black;
+ font-weight: normal;
+}
+
+.bodytext 
+{
+ font-family: Arial;
+ font-size: 12px;
+ color: #000000;
+}
+
+.linktext 
+{
+ text-decoration: none;
+}
+
+.warning11 
+{
+ font-family: Arial;
+ font-size: 11px;
+ color: red;
+ font-weight: normal;
+}
+
+.warning12 
+{
+ font-family: Arial;
+ font-size: 12px;
+ color: red;
+ font-weight: normal;
+}
+
+.info 
+{
+ font-family: Arial;
+ font-size: 11px;
+ color: gray;
+ font-weight: normal;
+}
+
+.info9 
+{
+ font-family: Tahoma, Arial;
+ font-size: 9px;
+ color: gray;
+ font-weight: normal;
+}
+
+.info12 
+{
+ font-family: Tahoma, Arial;
+ font-size: 12px;
+ color: #6F6F6F;
+ font-weight: normal;
+}
+
+.header 
+{
+ font-family: Tahoma, Arial;
+ font-size: 12px;
+ color: black;
+}
+
+.menu 
+{
+ font-family: Tahoma, Arial;
+ font-size: 11px;
+ color: #000099;
+ font-weight: normal;
+ text-decoration: none;
+}
+
+.boxheader 
+{
+ font-family: Tahoma, Arial;
+ font-size: 12px;
+ color: #330099;
+ font-weight: normal;
+ text-decoration: none;
+}
+
+.boxtext 
+{
+ font-family: Tahoma, Arial;
+ font-size: 11px;
+ color: #000000;
+}
+
+.boxtext2 
+{
+ font-family: Tahoma, Arial;
+ font-size: 12px;
+ color: #003399;
+}
+
+.tombol 
+{
+ font-family: Tahoma, Arial;
+ font-size: 10px;
+ font-weight: normal;
+ background-color: #DADADA;
+}
+
+.boxdatauser 
+{
+ font-family: Tahoma, Arial;
+ font-size: 11px;
+ color: #000000;
+ font-weight: normal;
+}
+
+.boxdatauser2 
+{
+ font-family: Tahoma, Arial;
+ font-size: 11px;
+ color: #999999;
+ font-weight: normal;
+}
+
+.boxdatauser3 
+{
+ font-family: Tahoma, Arial;
+ font-size: 9px;
+ color: #999999;
+ font-weight: normal;
+}
+
+.judulform 
+{
+ font-family: Tahoma, Arial;
+ font-size: 12px;
+ color: #333399;
+ font-weight: normal;
+ text-decoration: none;
+}
+
+.judulform_hitam 
+{
+ font-family: Tahoma, Arial;
+ font-size: 12px;
+ color: 000000;
+ font-weight: normal;
+ text-decoration: none;
+}
+
+.tombol_image 
+{
+ position: absolute;
+ cursor: pointer;
+ border-width: 0px;
+ overflow: hidden;
+ background-image: url("tombol_c.jpg");
+ color: #000000;
+ margin-bottom: 0;
+ margin-top: 0;
+ font-size: 10px;
+}
+.info11 
+{
+ font-family: Tahoma, Arial;
+ font-size: 14px;
+ color: blue;
+ font-weight: normal;
+}
+
+.info10 
+{
+ font-family: Tahoma, Arial;
+ font-size: 10px;
+ color: gray;
+ font-weight: normal;
+}
+
+a:link 
+{
+ text-decoration: none;
+ font-family: Arial;
+ font-size: 11px;
+ color: #000099;
+ font-weight: normal;
+}
+
+a:visited 
+{
+ text-decoration: none;
+ font-family: Arial;
+ font-size: 11px;
+ color: #000099;
+ font-weight: normal;
+}
+
+a:hover 
+{
+ text-decoration: underline;
+ font-family: Arial;
+ font-size: 11px;
+ color: black;
+ font-weight: normal;
+}
+
+.bodytext 
+{
+ font-family: Arial;
+ font-size: 12px;
+ color: #000000;
+}
+
+.linktext 
+{
+ text-decoration: none;
+}
+
+.warning11 
+{
+ font-family: Arial;
+ font-size: 11px;
+ color: red;
+ font-weight: normal;
+}
+
+.warning12 
+{
+ font-family: Arial;
+ font-size: 12px;
+ color: red;
+ font-weight: normal;
+}
+
+.info 
+{
+ font-family: Arial;
+ font-size: 11px;
+ color: gray;
+ font-weight: normal;
+}
+
+.info9 
+{
+ font-family: Tahoma, Arial;
+ font-size: 9px;
+ color: gray;
+ font-weight: normal;
+}
+
+.info12 
+{
+ font-family: Tahoma, Arial;
+ font-size: 12px;
+ color: #6F6F6F;
+ font-weight: normal;
+}
+
+.header 
+{
+ font-family: Tahoma, Arial;
+ font-size: 12px;
+ color: black;
+}
+
+.menu 
+{
+ font-family: Tahoma, Arial;
+ font-size: 11px;
+ color: #000099;
+ font-weight: normal;
+ text-decoration: none;
+}
+
+.boxheader 
+{
+ font-family: Tahoma, Arial;
+ font-size: 12px;
+ color: #330099;
+ font-weight: normal;
+ text-decoration: none;
+}
+
+.boxtext 
+{
+ font-family: Tahoma, Arial;
+ font-size: 11px;
+ color: #000000;
+}
+
+.boxtext2 
+{
+ font-family: Tahoma, Arial;
+ font-size: 12px;
+ color: #003399;
+}
+
+.tombol 
+{
+ font-family: Tahoma, Arial;
+ font-size: 10px;
+ font-weight: normal;
+ background-color: #DADADA;
+}
+
+.boxdatauser 
+{
+ font-family: Tahoma, Arial;
+ font-size: 11px;
+ color: #000000;
+ font-weight: normal;
+}
+
+.boxdatauser2 
+{
+ font-family: Tahoma, Arial;
+ font-size: 11px;
+ color: #999999;
+ font-weight: normal;
+}
+
+.boxdatauser3 
+{
+ font-family: Tahoma, Arial;
+ font-size: 9px;
+ color: #999999;
+ font-weight: normal;
+}
+
+.judulform 
+{
+ font-family: Tahoma, Arial;
+ font-size: 12px;
+ color: #333399;
+ font-weight: normal;
+ text-decoration: none;
+}
+
+.judulform_hitam 
+{
+ font-family: Tahoma, Arial;
+ font-size: 12px;
+ color: 000000;
+ font-weight: normal;
+ text-decoration: none;
+}
+
+.tombol_image 
+{
+ position: absolute;
+ cursor: pointer;
+ border-width: 0px;
+ overflow: hidden;
+ background-image: url("tombol_c.jpg");
+ color: #000000;
+ margin-bottom: 0;
+ margin-top: 0;
+ font-size: 10px;
+}
+
+
+
+.info10 
+{
+ font-family: Tahoma, Arial;
+ font-size: 10px;
+ color: gray;
+ font-weight: normal;
+}
+.menuexp 
+{
+ background-image: url(menudiv1.htm);
+ margin-left: 0px;
+ padding-left: 5px;
+ padding-top: 2px;
+ padding-bottom: 2px;
+ display: block;
+ text-decoration: none;
+ color: #090909;
+ height: 20px;
+ font-family: Arial, "Lucida Console", "Lucida Sans Typewriter", serif;
+ font-size: 11px;
+ background-color: #CABAAA;
+ border-bottom-color: white;
+ border-bottom-width: 1px;
+ border-bottom-style: solid;
+}
+
+.submenu 
+{
+ background-image: url(slub0000.htm);
+ display: block;
+ height: 19px;
+ margin-left: 0px;
+ padding-top: 4px;
+ padding-left: 26px;
+ color: #333333;
+ font-family: Arial, serif;
+ text-decoration: none;
+ font-size: 12px;
+ background-color: #EBE0D6;
+ border-bottom-style: solid;
+ border-bottom-color: white;
+ border-bottom-width: 1px;
+}
+
+.hide 
+{
+ display: none;
+}
+
+.show 
+{
+ display: block;
+}
+
+.menuexp2 
+{
+ background-image: url(menudiv1.htm);
+ margin-left: 0px;
+ padding-left: 26px;
+ padding-top: 4px;
+ padding-bottom: 0px;
+ display: block;
+ text-decoration: none;
+ color: #090909;
+ height: 20px;
+ font-family: Arial, "Lucida Console", "Lucida Sans Typewriter", serif;
+ font-size: 11px;
+ background-color: #EBE0D6;
+ border-bottom-color: white;
+ border-bottom-width: 1px;
+ border-bottom-style: solid;
+}
+.overlay 
+{
+    position: fixed;
+    z-index: 99;
+    top: 0px;
+    left: 0px;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    filter: Alpha(Opacity=20);
+    opacity: 0.20;
+    -moz-opacity: 0.20;
+    text-align: center;
+}
+.theprogress
+{
+    /*background-color: #D3BB9C;
+    width: 110px;
+    height: 24px;*/
+    text-align: center; 
+    filter: Alpha(Opacity=100);
+    opacity: 1;
+    -moz-opacity: 1;
+    position: relative;
+}
+
+.modalprogress 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -11px 0 0 -55px;
+    color: white;
+    text-align: center;
+}
+          
+body>#modalprogress 
+{
+  position:fixed;
+  text-align: center;
+}
+
+.button{
+	font:11px Tahoma,sans-serif;font-weight:bold;padding:6px 8px;color:#fff;display:inline-block;zoom:1;*display:inline;vertical-align:baseline;margin:0 3px 0 1px;outline:none;cursor:pointer;text-align:center;text-shadow:1px 1px 1px #555;width:auto;overflow:visible;line-height:110%;text-decoration:none;
+}
+.button:hover{opacity:0.9;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";filter:alpha(opacity=90)}
+a.button:hover{color:#fff}
+.button:active{position:relative;top:1px}
+.button.big{font:15px Arial,sans-serif;font-weight:bold;padding:8px 10px}
+.button.small{font-weight:normal;padding:4px 5px}
+.button.red{border:1px solid #9c0606;background:#e85353}
+.button.blue{border:1px solid #0d717e;background:#28a0b2}
+.button.green{border:1px solid #3b6e22;background:#75ae5c}
+.button.orange{border:1px solid #c16729;background:#ff9435}
+.button.purple{border:1px solid #981271;background:#cb60b3}
+.button.yellow{border:1px solid #af9827;background:#f2de6f}
+.button.black{border:1px solid #000;background:#444}
+.button.gray{border:1px solid #444;background:#888}
+.button.white{color:#444;text-shadow:1px 1px 0 #fff;border:1px solid #999;background:#f7f7f7}
+.button.white:hover{color:#444}
+
+input[type=text],
+input[type=password]{
+	background: rgba(255, 255, 255, 0.9);
+	background:-moz-linear-gradient(90deg, #fff, #eee); /* Firefox */
+	background:-webkit-gradient(linear, left top, left bottom, from(#eee), to(#fff), color-stop(0.2, #fff)); /* Webkit */
+	border:1px solid #aaa;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-box-shadow:0 0 3px #aaa;
+	-webkit-box-shadow:0 0 3px #aaa;
+	padding:5px;
+}
+input[type=text]:focus,
+input[type=password]:focus{
+	border-color:#093c75;
+	-moz-box-shadow:0 0 3px #0459b7;
+	-webkit-box-shadow:0 0 3px #0459b7;
+	outline:none; /* Pour enlever le contour jaune lorsque l'on sélectionne un input dans Chrome */
+}
